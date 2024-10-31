@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - M. Pranavi Reddy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a2e;
+            color: #eaeaea;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+        }
+        header, section, footer {
+            text-align: center;
+            padding: 2em 0;
+        }
+        .profile-pic {
+            width: 150px;
+            border-radius: 50%;
+            margin-top: 20px;
+        }
+        h1, h2, h3 {
+            color: #add8e6;
+        }
+        .highlight {
+            color: #57b8ff;
+        }
+        .button {
+            padding: 10px 20px;
+            background-color: #57b8ff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        .skills, .project {
+            margin-top: 2em;
+        }
+        .project-card {
+            background-color: #333;
+            border-radius: 10px;
+            padding: 1em;
+            margin: 1em 0;
+        }
+        footer {
+            background-color: #0d0d1a;
+            padding: 1em;
+            color: #666;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 0.5em;
+            margin: 0.5em 0;
+            border-radius: 5px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="images/profile.jpg" alt="M. Pranavi Reddy" class="profile-pic">
+            <h1>Hi, Myself <span class="highlight">M. Pranavi Reddy</span></h1>
+            <p>And I'm a <span class="highlight">College Student Passionate About Coding</span></p>
+            <p>I have a love for coding and a drive to continuously improve my skills and knowledge in programming.</p>
+            <a href="resume.pdf" class="button">Download CV</a>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <h2>About <span class="highlight">Me</span></h2>
+            <p>I'm M. Pranavi Reddy, a college student with a deep passion for coding and technology. From a young age, I’ve been fascinated by the potential of software to transform ideas into reality, and this curiosity has driven me to pursue a path in computer science. I enjoy the challenges and creativity involved in solving problems through code and am dedicated to continuously expanding my skill set.</p>
+            
+            <p>Through my projects, such as building a recipe management website using Java Swing with my group and creating a caterpillar game in Python, I’ve had the opportunity to work on real-world applications that allow me to apply my programming skills in meaningful ways. These experiences have taught me the importance of teamwork, attention to detail, and efficient coding practices.</p>
+            
+            <p>Currently, I’m focused on improving my skills in C/C++, Java, and web development. My goal is to build applications that are not only functional but also user-friendly and impactful. I am constantly exploring new technologies and techniques to stay updated in this rapidly evolving field, and I look forward to taking on more challenging projects that push me to learn and grow.</p>
+        </div>
+    </section>
+
+    <section class="skills">
+        <div class="container">
+            <h2>Skills <span class="highlight">Highlights</span></h2>
+            <ul>
+                <li><strong>C/C++:</strong> Proficient in low-level programming, memory management, and problem-solving techniques.</li>
+                <li><strong>Java:</strong> Experienced in object-oriented programming and building robust applications.</li>
+                <li><strong>HTML:</strong> Knowledgeable in creating clean, accessible markup for web development.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="project">
+        <div class="container">
+            <h2>Latest <span class="highlight">Projects</span></h2>
+            <div class="project-card">
+                <h3>Recipe Management Website</h3>
+                <img src="images/recipe_management.jpg" alt="Recipe Management Website" style="width:100%; border-radius: 10px;">
+                <p>I collaborated with my group to build a recipe management website using Java Swing, allowing users to add, view, and manage their favorite recipes.</p>
+            </div>
+            <div class="project-card">
+                <h3>Caterpillar Game</h3>
+                <img src="images/caterpillar_game.jpg" alt="Caterpillar Game" style="width:100%; border-radius: 10px;">
+                <p>I developed a simple caterpillar game using Python, where players control a caterpillar to navigate and grow by eating food while avoiding obstacles.</p>
+            </div>
+            <div class="project-card">
+                <h3>Food Delivery Application</h3>
+                <img src="images/food_delivery.jpg" alt="Food Delivery Application" style="width:100%; border-radius: 10px;">
+                <p>I created a food delivery application in Python that allows users to browse restaurants, place orders, and track delivery status. This project helped me understand backend integration and database management.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <h2>Contact <span class="highlight">Me</span></h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+                <input type="text" placeholder="Mobile Number">
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit" class="button">Send Message</button>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
